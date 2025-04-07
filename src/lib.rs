@@ -1,3 +1,4 @@
+#![no_std]
 use num_integer::Roots;
 
 pub fn pair<I: Roots + Clone>(n: I, m: I) -> I{
